@@ -1,0 +1,129 @@
+body {
+  background-color: #fff;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+/* ##################  */
+
+/* Header */
+.header {
+  padding-top: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 148px;
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu-item {
+  padding-right: 55px;
+}
+
+.logo-link,
+.logo-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.nav-menu-link {
+  text-decoration: none;
+  color: #170c04;
+}
+
+.icon {
+  padding-right: 40px;
+}
+
+.end {
+  padding-right: 0px;
+}
+
+/* ##################  */
+
+/* Main Text */
+.dog-main {
+  display: block;
+}
+
+.dog-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120px;
+  max-width: 613px;
+
+  color: #170c04;
+}
+
+/* ##################  */
+
+/* button */
+.button-group {
+  margin-top: 75px;
+}
+
+.button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 24px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-primary {
+  color: #fff;
+  background-color: #e27b3a;
+  margin-right: 20px;
+}
+
+.button-secondary {
+  color: #e27b3a;
+  border: 1px solid rgba(248, 99, 0, 0.897);
+  box-sizing: border-box;
+  background-color: #fff;
+  
+}
+
+.button-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* ##################  */
+
+/* IMAGES */
+
+.dog {
+  position: absolute;
+  top: 82px;
+  right: 56px;
+}
+
+.rect {
+  background: url("../img/Rectangle.png") no-repeat top right;
+}
