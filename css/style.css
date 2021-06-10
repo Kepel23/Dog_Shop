@@ -63,6 +63,12 @@ body {
 /* ##################  */
 
 /* Main Text */
+
+.main-page-dog {
+  display: inline-block;
+  
+}
+
 .dog-main {
   display: block;
 }
@@ -104,7 +110,6 @@ body {
   border: 1px solid rgba(248, 99, 0, 0.897);
   box-sizing: border-box;
   background-color: #fff;
-  
 }
 
 .button-text {
@@ -126,4 +131,77 @@ body {
 
 .rect {
   background: url("../img/Rectangle.png") no-repeat top right;
+}
+
+/* ##################  */
+
+/* Catalog food */
+
+.catalog-food {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 0;
+}
+
+.food-box {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding:40px 25px 18px 25px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+
+.food-box:hover   {
+  border:none;
+  box-sizing: none;
+  box-shadow: 0 15px 15px 0px rgba(228, 115, 10, 0.5);
+ }
+
+.title-food {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 37px;
+  
+
+  color: #170c04;
+}
+
+.text-food {
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #170c04;
+
+  opacity: 0.6;
+}
+
+.details {
+  font-size: 16px;
+  line-height: 24px;
+  
+
+  color: #e27b3a;
+}
+
+.icon-food1 {
+  position: absolute;
+  top:830px;
+  left:550px;
+}
+
+.icon-food2 {
+  position: absolute;
+  top:830px;
+  left:930px;
+}
+
+.icon-food3 {
+  position: absolute;
+  top:830px;
+  left:1320px;
 }
