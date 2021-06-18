@@ -154,7 +154,7 @@ body {
 .text-food {
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
+
   color: #170c04;
 
   opacity: 0.6;
@@ -180,8 +180,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
 :before,
 :after {
   content: "";
@@ -202,7 +200,6 @@ body {
   right: 1.8px;
 }
 
-
 .block-icon img {
   position: absolute;
   top: 7%;
@@ -222,9 +219,7 @@ body {
 }
 
 .icon-block:hover {
-  border: none;
   box-shadow: 0 15px 15px 0px rgba(228, 115, 10, 0.5);
-  
 }
 
 /* ##################  */
@@ -282,11 +277,72 @@ body {
   font-weight: 500;
   font-size: 25px;
   line-height: 37px;
-  
 
   color: #170c04;
 }
 
 .item-text {
   text-align: center;
+}
+
+.other-products {
+  display: flex;
+  margin-bottom: 46px;
+}
+
+.other-item-box {
+  display: flex;
+  background: #fcf2eb;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 273px;
+  margin-bottom: 25px;
+}
+
+.other-box-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #170c04;
+}
+
+.button-products {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+ .button-veiw-products {
+  border: 1px solid #e27b3a;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 12px 30px;
+  
+}
+
+.button-products-text {
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  
+  color: #e27b3a;
+}
+
+/* ##################  */
+
+/* Dog Care */
+
+.dog-care {
+  display: flex;
+  align-items: center;
+}
+
+.care-photo {
+  border-radius: 50px;
 }
