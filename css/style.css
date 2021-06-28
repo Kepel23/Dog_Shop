@@ -180,8 +180,8 @@ body {
   box-sizing: border-box;
 }
 
-:before,
-:after {
+.icon-block:before,
+.icon-block:after {
   content: "";
   position: absolute;
   height: 0.8px;
@@ -192,11 +192,11 @@ body {
   top: 0;
 }
 
-:before {
+.icon-block:before {
   left: 1.8px;
 }
 
-:after {
+.icon-block:after {
   right: 1.8px;
 }
 
@@ -476,4 +476,71 @@ Subscription Work? */
 
 .pad1 {
   margin-right: 0px;
+}
+
+/* ##################  */
+
+/* Popular Galery */
+
+.popular-galery {
+  display: flex;
+  margin:120px 0 120px 0;
+}
+
+.galerei {
+  max-width: 1400px;
+  
+}
+
+.popular-products-photo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.popular-photo-block {
+  
+  display: flex;
+  flex-direction: column;
+  
+  flex: 50%;
+  border-radius: 5px;
+  max-width: 262px;
+  height: 170px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.popular-photo-item {
+  margin: 25px 41px;
+}
+
+.color1 {
+  background: rgba(141, 10, 10, 0.1);
+}
+
+.color2 {
+  background: rgba(21, 8, 145, 0.1);
+}
+
+.color3 {
+  background: rgba(141, 10, 10, 0.1);
+}
+
+.color4 {
+  background: rgba(156, 84, 170, 0.1);
+}
+
+.main-photo-galerei {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgba(194, 18, 85, 0.1);
+  border-radius: 10px;
+  
+  
 }
