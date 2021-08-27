@@ -484,12 +484,11 @@ Subscription Work? */
 
 .popular-galery {
   display: flex;
-  margin:120px 0 120px 0;
+  margin: 120px 0 120px 0;
 }
 
 .galerei {
   max-width: 1400px;
-  
 }
 
 .popular-products-photo {
@@ -502,10 +501,9 @@ Subscription Work? */
 }
 
 .popular-photo-block {
-  
   display: flex;
   flex-direction: column;
-  
+
   flex: 50%;
   border-radius: 5px;
   max-width: 262px;
@@ -541,8 +539,6 @@ Subscription Work? */
   justify-content: center;
   background: rgba(194, 18, 85, 0.1);
   border-radius: 10px;
-  
-  
 }
 
 /* ##################  */
@@ -552,16 +548,16 @@ Subscription Work? */
   display: flex;
   width: 1140px;
   height: 346px;
-  background: url('/img/bacground_img.svg');
+  background: url("/img/bacground_img.svg");
   margin-top: 86px;
-  margin-bottom:70px;
+  margin-bottom: 70px;
 }
 .message-block-text {
   text-align: left;
   align-self: center;
   max-width: 423px;
   max-height: 142px;
-  margin:30px 69px 102px 96px;
+  margin: 30px 69px 102px 96px;
 }
 
 .message-block-button {
@@ -573,9 +569,9 @@ Subscription Work? */
   width: 115.44px;
   height: 70px;
   margin-right: 40.5px;
-  
+
   border: none;
-  border-radius:0px 24px 24px 0px;
+  border-radius: 0px 24px 24px 0px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -583,7 +579,6 @@ Subscription Work? */
 .button-primary {
   color: #fff;
   background-color: #e27b3a;
-  
 }
 
 input {
@@ -592,13 +587,10 @@ input {
   height: 70px;
   outline: none;
   border: none;
-  padding:0px 0px 0px 20px;
+  padding: 0px 0px 0px 20px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  
-  
-  
 }
 
 .products-title-dog {
@@ -620,4 +612,58 @@ input {
   color: #fff;
   opacity: 0.6;
   margin-bottom: 25px;
+}
+/* ##################  */
+
+/* FOOTER*/
+
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 363.5px;
+  background: url("/img/footer_back.png") repeat;
+}
+
+.foot-body {
+  display: flex;
+
+  width: 1141px;
+  height: 200px;
+}
+
+.foot_item1 {
+  color: #fff;
+  text-align: left;
+  margin-top: 80px;
+  margin-right: 200px;
+}
+
+.foot_item2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 337px;
+}
+
+.foot_item3 {
+  color: #fff;
+  text-align: right;
+  margin-top: 80px;
+}
+
+.foot_item_text {
+  margin-bottom: 37px;
+}
+
+.foot_item_main {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+
+  color: #ffffff;
 }
