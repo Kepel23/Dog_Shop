@@ -622,9 +622,10 @@ input {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: url("/img/footer_back.png") repeat;
   width: 100%;
   height: 363.5px;
-  background: url("/img/footer_back.png") repeat;
+
 }
 
 .foot-body {
